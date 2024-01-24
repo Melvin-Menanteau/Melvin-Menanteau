@@ -11,6 +11,20 @@ export default defineNuxtConfig({
 			'Inter': true
 		}
 	},
+	ui: {
+		icons: ['mdi', 'heroicons']
+	},
+	app: {
+		head: {
+			title: 'Melvin MENANTEAU',
+			htmlAttrs: {
+				lang: 'fr'
+			}
+		}
+	},
+	colorMode: {
+		preference: 'light'
+	},
 	devtools: {
 		enabled: false
 	}
