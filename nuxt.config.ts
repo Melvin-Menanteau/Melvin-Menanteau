@@ -8,7 +8,7 @@ export default defineNuxtConfig({
 	googleFonts: {
 		display: 'swap',
 		families: {
-			'Inter': true
+			Inter: '100..900'
 		}
 	},
 	ui: {
